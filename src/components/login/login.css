@@ -1,0 +1,15 @@
+.navBar {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: darkslategray;
+    color: white;
+}
+
+.card-style {
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
