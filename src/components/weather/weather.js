@@ -3,7 +3,6 @@ import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
 import {
-  Input,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -11,11 +10,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Button,
   CardHeader,
   CardBody,
-  Card,
-  CardTitle } from 'reactstrap';
+  Card,} from 'reactstrap';
 
 const cities = [
     { label: "London", value: "London" },
