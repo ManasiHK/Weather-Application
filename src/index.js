@@ -6,7 +6,6 @@ import store from '../src/components/redux/store';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Login />
     <App/>
   </Provider>,
   document.getElementById('root')
